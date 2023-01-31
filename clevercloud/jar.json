@@ -4,6 +4,6 @@
         "goal": "package"
     },
     "deploy": {
-        "goal": "target/*.jar"
+        "jarName": "target/*.jar"
     }
 }
