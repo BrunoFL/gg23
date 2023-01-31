@@ -4,6 +4,6 @@
         "goal": "clean package"
     },
     "deploy": {
-        "goal": "springboot:run"
+        "jarName": "target/*.jar"
     }
 }
