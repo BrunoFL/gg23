@@ -21,9 +21,11 @@ public class Ggj23Application {
     @Bean
     public DataSource dataSource() {
         Map<String, String> env = System.getenv();
+        String url = "jdbc:" + env.getOrDefault("POSTGRESQL_ADDON_URI", "postgresql://localhost:5433/ggj23");
+        log.info("url " + url);
         return DataSourceBuilder.create()
                 .driverClassName("org.postgresql.Driver")
-                .url("jdbc:" + env.getOrDefault("POSTGRESQL_ADDON_URI", "postgresql://localhost:5433/ggj23"))
+                .url(url)
                 .username(env.getOrDefault("POSTGRESQL_ADDON_USER", "postgres"))
                 .password(env.getOrDefault("POSTGRESQL_ADDON_PASSWORD", "pass"))
                 .build();
