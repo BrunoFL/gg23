@@ -2,8 +2,13 @@
 
 
 ## Lancer
+
+Dans un terminal different :
 ```shell
 docker-compose -f dev.yml up
+```
+
+```shell
 ./mvnw spring-boot:run
 ```
 
