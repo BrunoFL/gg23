@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "app_id": "app_963bd868-f7b4-4258-8032-dca87fd5343d",
+      "org_id": "orga_cc964ae1-b87d-4bc5-bca9-e9f69f65ea0e",
+      "deploy_url": "https://github.com/BrunoFL/ggj23.git",
+      "name": "ggj23",
+      "alias": "ggj23"
+    }
+  ]
+}
