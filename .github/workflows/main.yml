@@ -16,17 +16,3 @@ jobs:
           cache: maven
       - name: Build with Maven
         run: mvn clean package
-
-      # Deploy your application
-      - uses: actions/checkout@v2
-      - name: Deploy on cc
-        env:
-          APP_NAME: 'ggj23'
-          APP_ID: 'app_963bd868-f7b4-4258-8032-dca87fd5343d'
-        run: |
-          git fetch --prune --unshallow
-          wget https://clever-tools.cellar.services.clever-cloud.com/releases/latest/clever-tools-latest_linux.tar.gz
-          tar xvzf clever-tools-latest_linux.tar.gz
-          ./clever-tools-latest_linux/clever login --token $ --secret $
-          ./clever-tools-latest_linux/clever link $
-          ./clever-tools-latest_linux/clever deploy -f -a $

@@ -1,9 +1,9 @@
 {
   "apps": [
     {
-      "app_id": "app_963bd868-f7b4-4258-8032-dca87fd5343d",
+      "app_id": "app_3733ebef-98a8-4e68-8c7f-6ca3e84e1d86",
       "org_id": "orga_cc964ae1-b87d-4bc5-bca9-e9f69f65ea0e",
-      "deploy_url": "https://github.com/BrunoFL/ggj23.git",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_3733ebef-98a8-4e68-8c7f-6ca3e84e1d86.git",
       "name": "ggj23",
       "alias": "ggj23"
     }
