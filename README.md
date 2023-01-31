@@ -13,6 +13,7 @@ docker-compose -f dev.yml up
 ```
 
 Pour l'acces à la base de dev :
+- system: postgres
 - user: postgres
 - mdp: pass
 
@@ -25,7 +26,7 @@ Pour l'acces à la base de dev :
 - Se connecter à la base : http://0.0.0.0:8181
 - Cliquer sur db en haut
 - Créer une base de données
-- ggj23
+- `ggj23`
 
 ## Arreter
 ```shell
