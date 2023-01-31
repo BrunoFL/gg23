@@ -1,4 +1,8 @@
 {
+    "build": {
+        "type": "maven",
+        "goal": "package"
+    },
     "deploy": {
         "jarName": "target/ggj23-0.0.1-SNAPSHOT.jar"
     }
