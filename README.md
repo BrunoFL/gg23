@@ -1,5 +1,6 @@
 # ggj23
 
+Global Game Jam 2023
 
 ## Lancer
 
