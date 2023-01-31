@@ -15,7 +15,9 @@ Pour l'acces à la base de dev :
 - appli : http://0.0.0.0:8080
 - base : http://0.0.0.0:8181
 
-- Se connecter à la base
+
+## Créer la base
+- Se connecter à la base : http://0.0.0.0:8181
 - Cliquer sur db en haut
 - Créer une base de données
 - ggj23
