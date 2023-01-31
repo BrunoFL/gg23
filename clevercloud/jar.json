@@ -1,9 +1,9 @@
 {
     "build": {
         "type": "maven",
-        "goal": "clean package"
+        "goal": "package"
     },
     "deploy": {
-        "goal": "spring-boot:run"
+        "goal": "target/*.jar"
     }
 }
